@@ -1,0 +1,43 @@
+name: ayet_ezberletici
+description: "Günlük hayata Kur'an okumayı sığdırmayı kolaylaştıran ayet ezberletme uygulaması."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Networking
+  http: ^1.2.2
+
+  # Audio
+  just_audio: ^0.9.42
+  just_audio_background: ^0.0.1-beta.14
+  audio_session: ^0.1.21
+
+  # Persistence & files
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # UI
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  scrollable_positioned_list: ^0.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
